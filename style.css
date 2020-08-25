@@ -1,0 +1,259 @@
+@font-face {
+    src: url(muli.zip);
+    font-family: muli;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: fit-content;
+}
+
+body{
+    font-family: muli;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: top center;
+    margin-left: 10px;
+}
+
+.flexbox-container1{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 50%;
+}
+
+.flexbox-container2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 50%;
+    justify-content: space-evenly;
+    max-height: 90%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.detailsbase{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-box {
+    margin-bottom: 5px;
+}
+
+.search-box {
+    max-width: 320px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 16px 16px;
+    border-top: 5px solid #47FF6C;
+    border-bottom: 5px solid #47FF6C;
+    border-right: 2px solid #47FF6C;
+    border-left: 2px solid #47FF6C;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+    height: 40px;
+}
+
+.search-box:focus{
+    background-color: rgba(255, 255, 255, .83);
+}
+
+.image1 {
+    height: 150px;
+    width: 160px;
+    display: block;
+}
+
+.city {
+    background-color: rgba(69, 187, 253, 0.75);
+    color: white;
+    font-size: 39px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    border: solid 3px #333333;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 15% 0% 15% 0%;
+    width: 70%;
+
+}
+
+.date {
+    margin-top: 15px;
+    color: white;
+    font-size: 22px;
+    background-color: rgba(63, 232, 188, 0.7);
+    border: solid 3px #333333;
+    border-radius: 0% 15% 0% 15%;
+    padding: 8px;
+    width: 70%;
+
+}
+
+.current .tempholder {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 10px 0px;
+    text-shadow: 2px 5px rgba(31, 29, 29, 0.1);
+    background-color: rgba(19,255,125, 0.8);
+    padding: 10px;
+    border: solid 3px #333333;
+    border-radius: 12%;
+    padding: auto;
+    width: 70%;
+}
+
+.current .temp span {
+    font-weight: 500;
+    padding: 10px;
+}
+
+.current .weather {
+    color: white;
+    font-size: 32px;
+    font-weight: 700px;
+    font-style: bold;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+    width: 70%;
+}
+
+.current .hi-low {
+    color: white;
+    font-size: 34px;
+    font-weight: 500;
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 12% 0% 12% 0%;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.current .hi-low span {
+    margin-right: 15px;
+}
+
+.weather {
+    padding: 5px;
+    border: solid 3px #333333;
+    background-color: rgba(255, 147, 101, 0.7);
+}
+
+.hi-low {
+    border: solid 3px #333333;
+    padding: 3px;
+    background-color: rgba(113, 44, 255, 0.95);
+}
+
+.wind {
+    border: solid 3px #333333;
+    padding: 3px;
+    background-color: rgba(31, 250, 242, 0.8);
+    width: 70%;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.image1 {
+    height: 150px;
+    width: 160px;
+    float: left;
+}
+
+.forecast-header {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    border-radius: 12%;
+    width: 80%;
+    background-color: rgba(51, 51, 51, 0.4);
+    margin: 5px;
+   
+}
+
+.details1{
+    margin-right: 50px;
+}
+
+.first3, .second3, .third3, .fourth3, .fifth3, .sixth3, .seventh3, .eigth3 {
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.flexbox-container2 h2{
+    font-size: 30px;
+}
+
+.first3 {
+    background-color: rgba(69, 201, 247, 0.8);
+    border-radius: 12%;
+}
+
+.second3 {
+    background-color: rgba(60, 134, 214, 0.8);
+    border-radius: 12%;
+}
+
+.third3 {
+    background-color: rgba(67, 60, 214, 0.8);
+    border-radius: 12%;
+}
+
+.fourth3 {
+    background-color: rgba(126, 69, 247, 0.8);
+    border-radius: 12%;
+}
+
+.fifth3 {
+    background-color: rgba(255, 94, 89, 0.8);
+    border-radius: 12%;
+}
+
+.sixth3 {
+    background-color: rgba(255, 18, 89, 0.8);
+    border-radius: 12%;
+}
+
+.seventh3 {
+    background-color: rgba(255, 15, 150, 0.8);
+    border-radius: 12%;
+}
+
+.eigth3 {
+    background-color: rgba(255, 53, 197, 0.8);
+    border-radius: 12%;
+}
+
+.time{
+    font-size: 16px;
+}
+
+.nexttemp{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.detailsbase{
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.4);
+}
+
+.credits {
+    background-color: grey;
+    width: 20%;
+}

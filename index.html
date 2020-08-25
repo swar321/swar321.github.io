@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data and Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9lqE3jOTlaNhtaAr--ecTjbsggAaQ7Ww&libraries=places"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="flexbox-container1">
+            <input type="text" autocomplete="off" 
+            class="search-box" placeholder="Search for a City, Press ENTER">
+                <div class="city">City, Country</div>
+                <div class="date">Day, Month, Date, Year</div>
+            <div class="current">
+                <div class="tempholder">
+                    <div class="temp">Temp °F</div>
+                    <div class="feels"><span>Feels Like: </span><span class="feelslike"></span></div>
+                </div>
+                <div class="hi-low"><span>High/Low:</span><span class="actual-hi-low"></span></span></div>
+                <div class="weather">Weather Type</div>
+                <div class="wind">Wind Speed: <span class="windspeed"></span> MPH</div>
+                <img src="base.png" alt="" class="image1">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="credits">Powered by OpenWeather API</div>
+            </div>
+        </div>  
+        <div class="flexbox-container2">
+            <header class="forecast-header">Forecast for Next 24 Hrs (UTC)</header>
+            <div class="detailsbase">
+            <div class="details1">
+            <div class="first3">
+                <h2 class="time time1">3 Hrs From Now</h2>
+                <div class="nexttemp nexttemp1">Temp °F</div>
+                <div class="nextfeels nextfeels1">Feels Like Temp °F</div>
+                <div class="nextwind nextwind1">Wind Speed (MPH)</div>
+                <div class="nexttype nexttype1">Weather Type</div>
+            </div>
+            <div class="second3">
+                <h2 class="time time2">6 Hrs From Now</h2>
+                <div class="nexttemp nexttemp2">Temp °F</div>
+                <div class="nextfeels nextfeels2">Feels Like Temp °F</div>
+                <div class="nextwind nextwind2">Wind Speed (MPH)</div>
+                <div class="nexttype nexttype2">Weather Type</div>
+            </div>
+            <div class="third3">
+                <h2 class="time time3">9 Hrs From Now</h2>
+                <div class="nexttemp nexttemp3">Temp °F</div>
+                <div class="nextfeels nextfeels3">Feels Like Temp °F</div>
+                <div class="nextwind nextwind3">Wind Speed (MPH)</div>
+                <div class="nexttype nexttype3">Weather Type</div>
+            </div>
+            <div class="fourth3">
+                <h2 class="time time4">12 Hrs From Now</h2>
+                <div class="nexttemp nexttemp4">Temp °F</div>
+                <div class="nextfeels nextfeels4">Feels Like Temp °F</div>
+                <div class="nextwind nextwind4">Wind Speed (MPH)</div>
+                <div class="nexttype nexttype4">Weather Type</div>
+            </div>
+            </div>
+            <div class="details2">
+            <div class="fifth3">
+                <h2 class="time time5">15 Hrs From Now</h2>
+                <div class="nexttemp nexttemp5">Temp °F</div>
+                <div class="nextfeels nextfeels5">Feels Like Temp °F</div>
+                <div class="nextwind nextwind5">Wind Speed (MPH)</div>
+                <div class="nexttype nexttype5">Weather Type</div>
+            </div>
+            <div class="sixth3">
+                <h2 class="time time6">18 Hrs From Now</h2>
+                <div class="nexttemp nexttemp6">Temp °F</div>
+                <div class="nextfeels nextfeels6">Feels Like Temp °F</div>
+                <div class="nextwind nextwind6">Wind Speed (MPH)</div>
+                <div class="nexttype nexttype6">Weather Type</div>
+            </div>
+            <div class="seventh3">
+                <h2 class="time time7">21 Hrs From Now</h2>
+                <div class="nexttemp nexttemp7">Temp °F</div>
+                <div class="nextfeels nextfeels7">Feels Like Temp °F</div>
+                <div class="nextwind nextwind7">Wind Speed (MPH)</div>
+                <div class="nexttype nexttype7">Weather Type</div>
+            </div>
+            <div class="eigth3">
+                <h2 class="time time8">24 Hrs from Now</h2>
+                <div class="nexttemp nexttemp8">Temp °F</div>
+                <div class="nextfeels nextfeels8">Feels Like Temp °F</div>
+                <div class="nextwind nextwind8">Wind Speed (MPH)</div>
+                <div class="nexttype nexttype8">Weather Type</div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
